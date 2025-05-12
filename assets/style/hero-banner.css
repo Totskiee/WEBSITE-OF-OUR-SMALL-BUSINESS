@@ -46,19 +46,34 @@
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
-@media only screen and (max-width: 1024px) {
+
+@media (max-width: 600px) {
   #hero-banner {
-    flex-direction: column-reverse;
-    padding: 48px 24px;
-  }
-
-  .hero-content {
-    max-width: 100%;
-  }
-
-  .hero-content .btn-group {
-    display: flex;
     flex-direction: column;
-    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .container h1 {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .container p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .primary-button {
+    font-size: 18px;
+    padding: 12px 24px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 16px;
   }
 }
