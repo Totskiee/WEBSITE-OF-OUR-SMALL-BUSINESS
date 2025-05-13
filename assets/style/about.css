@@ -1,4 +1,7 @@
 #about {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
     padding: 78px 0px;
@@ -18,9 +21,8 @@
 }
 
 .about-text h1 {
-    font-family: "Edu QLD Beginner", cursive;
     color: black;
-    font-size: 95px;
+    font-size: 80px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
@@ -32,9 +34,8 @@
 }
 
 .about-text h3, p {
-    font-family: "Edu QLD Beginner", cursive;
     margin-bottom: 14px;
-    font-size: 30px;
+    font-size: 24px;
 }
 .contents {
     gap: 40px;
