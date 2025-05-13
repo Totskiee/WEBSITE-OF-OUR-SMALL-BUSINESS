@@ -1,7 +1,9 @@
 
 .contact-section {
-    background-color: #fff8f0;
-    padding: 60px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.441)),
+    url(/assets/image/contact.avif);    padding: 60px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
 }
@@ -16,7 +18,7 @@
 }
 .contact-container p {
     font-size: 1.1em;
-    color: #555;
+    color: #000000;
     margin-bottom: 40px;
 }
 .contact-info {

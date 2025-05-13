@@ -1,11 +1,13 @@
+ 
 .footer-container {
-    background:  #6e866a;
+    background:  hsl(0, 0%, 0%);
+    color: rgb(255, 255, 255);
 }
 .footer-content{
     width: 200px;
     margin: auto;
     padding: 7px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .footer-content {
     text-align: center;
@@ -58,5 +60,5 @@ a:hover {
 }
 footer p {
     text-align: center;
-    background: #6e866a;
+    background: #000000;
 }
