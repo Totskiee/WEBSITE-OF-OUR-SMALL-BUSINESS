@@ -1,0 +1,15 @@
+#submission {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.514)), url(/assets/image/subbg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+#submission h1 {
+    color: rgb(215, 219, 223);
+    font-size: 50px;
+}
